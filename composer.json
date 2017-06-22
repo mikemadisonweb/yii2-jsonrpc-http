@@ -1,0 +1,26 @@
+{
+    "name": "tass/yii2-jsonrpc",
+    "license": "",
+    "description": "Yii2 jsonrpc API",
+    "authors": [
+        {
+            "name": "Mikhail Bakulin",
+            "email": "bakulin_m@tass.ru"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "~2.0"
+    },
+    "keywords": [
+      "yii2",
+      "jsonrpc",
+      "module"
+    ],
+    "autoload": {
+        "psr-4": {
+            "tass\\jsonrpc\\": ""
+        }
+    }
+}
